@@ -1,4 +1,5 @@
 # 📕 Multi-PDF Chatbot with LangChain, Groq & Streamlit
+▶️ YouTube Demo: [Watch Here](https://www.youtube.com/watch?v=dIGI8_FUDfg&ab_channel=Jatin)  
 
 A simple, interactive chatbot app built using **LangChain**, **HuggingFace embeddings**, **Groq's LLaMA 3 model**, and **Streamlit** that allows you to upload multiple PDF documents and ask questions using natural language. The chatbot retrieves relevant information using a vector database (Chroma) and maintains conversation history.
 
@@ -23,19 +24,17 @@ git clone https://github.com/your-username/multi-pdf-chatbot.git
 cd multi-pdf-chatbot
 
 2. Create a virtual environment
-
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+uv venv venv (run in terminal)
 
 3. Install dependencies
 
-pip install -r requirements.txt
+uv pip install -r requirements.txt
 
 🔑 Environment Variables
 
 Create a .env file in the project root with your Groq API key:
 
-GROQ_API_KEY=your_groq_api_key_here
+GROQ_API_KEY= "your_groq_api_key_here"
 
 🚀 Running the App
 
@@ -54,7 +53,6 @@ multi-pdf-chatbot/
 ├── .env                     # Environment file (not committed)
 └── requirements.txt         # Dependencies
 
-📸 Screenshot
 
 🙋‍♂️ How it Works
 
@@ -88,14 +86,8 @@ multi-pdf-chatbot/
 
     Streamlit
 
-📝 License
-
-MIT License. Feel free to fork and improve!
-🤝 Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-👨‍💻 Author
-
+## Credits ----
+### This Assignment was provided by  RGmX 
+Done by - 
 Jatin – AI & LLM Enthusiast
-📧 [Your email]
-🔗 LinkedIn • GitHub
+
